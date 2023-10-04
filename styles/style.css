@@ -127,13 +127,11 @@ li:not(:first-child) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 100%; */
 }
 
 .second-section > h2 {
   /* text-decoration: underline solid var(--green) 2px; */
   border-bottom: 2px solid var(--green);
-  /* padding-bottom: 1rem; */
 }
 
 .second-section > div {
@@ -148,7 +146,6 @@ li:not(:first-child) {
 .second-section > div > article {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
   align-items: center;
 }
 
@@ -163,6 +160,42 @@ li:not(:first-child) {
 .second-section p {
   width: 11rem;
   color: rgb(92, 90, 90)
+}
+
+/* THIRD SECTION */
+.third-section {
+  text-align: left;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background: var(--green);
+  color: var(--white);
+}
+
+.third-section .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.third-section h2 {
+  /* text-decoration: underline solid var(--green) 2px; */
+  border-bottom: 2px solid var(--white);
+}
+
+.third-section h3 {
+  padding-bottom: 1rem;
+}
+
+.third-section .spotify-logo {
+  width: 115px;
+}
+
+.third-section .spotify-profile {
+  width: 200px;
 }
 
 /* MOBILE */
